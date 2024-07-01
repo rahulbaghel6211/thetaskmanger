@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "StickerSmash",
+    "slug": "notification",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "d56097e6-ec3d-41c2-ba6d-64dfc5d84742"
+      }
+    },
+    "owner": "rahulbaghel16"
+  },
+  "android": {
+    "permissions": [
+      "NOTIFICATIONS"
+    ]
+  }
+}
